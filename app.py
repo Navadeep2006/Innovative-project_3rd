@@ -359,7 +359,7 @@ with tab2:
 
 # ─── Footer ──────────────────────────────────────────────────────────────────────
 st.markdown("""
-<div style="text-align:center; padding:2rem 0 1rem; color:#94a3b8; font-size:0.8rem;">
+<div style="position: fixed; bottom: 10px; left: 10px; color:#94a3b8; font-size:0.8rem; z-index: 9999;">
     Powered by a Random Forest Regressor trained on USDA Nutrient Data &nbsp;•&nbsp;
     Predictions are per 100g serving
 </div>
